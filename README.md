@@ -13,18 +13,17 @@ The project explores the security risks associated with the Netlogon Remote Prot
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 
-- [Overview](#Overview)
+- [Overview](#overview)
 - [Project Objectives](#project-objectives)
 - [Vulnerability Background](#vulnerability-background)
 - [Lab Environment](#lab-environment)
 - [Attack Demonstration](#attack-demonstration)
 - [Mitigation & Prevention](#mitigation--prevention)
+- [Lab Architecture](#lab-architecture)
 - [Video Demonstrations](#video-demonstrations)
 - [Documentation](#documentation)
-- [Project Structure](#project-structure)
-- [Disclaimer](#disclaimer)
 
 ---
 ## 📌 Overview
