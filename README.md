@@ -92,7 +92,7 @@ Demonstrates enabling Netlogon Domain Controller Enforcement Mode and examining 
 
 The accompanying project report provides further details about the lab environment, vulnerability analysis, attack demonstration, experimental observations, and mitigation process.
 
-- [Zerologon Demo Report](docs/YOUR_REPORT_FILENAME.docx)
+- [Zerologon Demo Report](Zerologon_Demo_Report.pdf)
 
 
 ## ⚠️ Disclaimer
