@@ -20,12 +20,12 @@ The project explores the security risks associated with the Netlogon Remote Prot
 - [Vulnerability Background](#vulnerability-background)
 - [Lab Environment](#lab-environment)
 - [Attack Demonstration](#attack-demonstration)
-- [Mitigation & Prevention](#mitigation--prevention)
-- [Lab Architecture](#lab-architecture)
+- [Mitigation and Prevention](#mitigation-and-prevention)
 - [Video Demonstrations](#video-demonstrations)
 - [Documentation](#documentation)
-
+- [Disclaimer](#disclaimer)
 ---
+<a id="overview"></a>
 ## 📌 Overview
 
 Zerologon (CVE-2020-1472) is a critical vulnerability affecting Microsoft's Netlogon Remote Protocol. It can potentially allow an unauthenticated attacker with network access to a vulnerable Domain Controller to compromise domain security.
@@ -37,7 +37,7 @@ The lab covers two main activities:
 - **Attack Demonstration:** Exploring the Zerologon vulnerability and its potential impact on Active Directory.
 - **Mitigation Demonstration:** Enabling Netlogon Domain Controller Enforcement Mode and examining the resulting security behavior.
 
-
+<a id="project-objectives"></a>
 ## ✨ Project Objectives
 
 - Understand the technical background of Zerologon (CVE-2020-1472).
@@ -47,6 +47,7 @@ The lab covers two main activities:
 - Enable Netlogon Domain Controller Enforcement Mode.
 - Examine the effectiveness of the implemented security configuration.
 
+<a id="vulnerability-background"></a>
 ## 🔍 Vulnerability Background
 
 Zerologon is a vulnerability in the Netlogon Remote Protocol caused by a weakness in its cryptographic authentication process.
@@ -55,6 +56,7 @@ The vulnerability can allow an unauthenticated attacker with network access to a
 
 Due to its potential impact, CVE-2020-1472 is considered a critical security vulnerability affecting Windows Server environments.
 
+<a id="lab-environment"></a>
 ## 🖥️ Lab Environment
 
 The experiment was conducted in a virtualized environment using VMware.
@@ -71,6 +73,7 @@ The experiment was conducted in a virtualized environment using VMware.
 
 *The virtual machines and complete lab environment are not included in this repository.*
 
+<a id="attack-demonstration"></a>
 ## ⚔️ Attack Demonstration
 
 The attack phase focuses on demonstrating the Zerologon vulnerability in a controlled Active Directory environment.
@@ -79,7 +82,8 @@ The experiment explores weaknesses in the Netlogon authentication process and il
 
 The demonstration is intended to provide practical insight into the risks associated with CVE-2020-1472.
 
-## 🔐 Mitigation & Prevention
+<a id="mitigation-and-prevention"></a>
+## 🔐 Mitigation and Prevention
 
 ### Netlogon Domain Controller Enforcement Mode
 
@@ -93,6 +97,7 @@ The mitigation demonstration focuses on enabling Enforcement Mode and examining 
 
 The practical verification process is documented in the accompanying demonstration video and project report.
 
+<a id="video-demonstrations"></a>
 ## 🎬 Video Demonstrations
 
 The following videos document the practical attack and mitigation experiments.
@@ -109,13 +114,14 @@ Demonstrates enabling Netlogon Domain Controller Enforcement Mode and examining 
 
 **[▶ Watch Mitigation Demonstration](https://youtu.be/KoYGaK_RSSE)**
 
+<a id="documentation"></a>
 ## 📄 Documentation
 
 The accompanying project report provides further details about the lab environment, vulnerability analysis, attack demonstration, experimental observations, and mitigation process.
 
 - [Zerologon Demo Report](Zerologon_Demo_Report.pdf)
 
-
+<a id="disclaimer"></a>
 ## ⚠️ Disclaimer
 
 This project was conducted in an isolated virtual lab environment for educational and cybersecurity research purposes.
