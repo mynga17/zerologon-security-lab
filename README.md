@@ -1,3 +1,10 @@
+![CVE](https://img.shields.io/badge/CVE-2020--1472-red)
+![Windows Server](https://img.shields.io/badge/Windows-Server-0078D4)
+![Active Directory](https://img.shields.io/badge/Active_Directory-AD-4472C4)
+![Netlogon](https://img.shields.io/badge/Netlogon-Security-blue)
+![VMware](https://img.shields.io/badge/VMware-Lab-607078)
+
+
 # 🔐 Zerologon Security Lab
 
 A practical cybersecurity lab focused on analyzing and demonstrating the Zerologon vulnerability (CVE-2020-1472) in a controlled Active Directory environment.
@@ -6,6 +13,20 @@ The project explores the security risks associated with the Netlogon Remote Prot
 
 ---
 
+## 📑 Table of Contents
+
+- [Overview](#Overview)
+- [Project Objectives](#project-objectives)
+- [Vulnerability Background](#vulnerability-background)
+- [Lab Environment](#lab-environment)
+- [Attack Demonstration](#attack-demonstration)
+- [Mitigation & Prevention](#mitigation--prevention)
+- [Video Demonstrations](#video-demonstrations)
+- [Documentation](#documentation)
+- [Project Structure](#project-structure)
+- [Disclaimer](#disclaimer)
+
+---
 ## 📌 Overview
 
 Zerologon (CVE-2020-1472) is a critical vulnerability affecting Microsoft's Netlogon Remote Protocol. It can potentially allow an unauthenticated attacker with network access to a vulnerable Domain Controller to compromise domain security.
@@ -16,6 +37,7 @@ The lab covers two main activities:
 
 - **Attack Demonstration:** Exploring the Zerologon vulnerability and its potential impact on Active Directory.
 - **Mitigation Demonstration:** Enabling Netlogon Domain Controller Enforcement Mode and examining the resulting security behavior.
+
 
 ## ✨ Project Objectives
 
